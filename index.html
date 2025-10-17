@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Meu Primeiro Documento!</title>
+</head>
+<body>
+
+    <div id="root">
+        <div class="container">
+                <h1 id="meu-h1">Olá Mundo!</h1>
+                <div>
+                    <ul id="lista1">
+                        <li><input name="radio1" type="radio" checked>um</li>
+                        <li><input name="radio1" type="radio">dois</li>
+                        <li><input name="radio1" type="radio">tres</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <form action="#" method="post">
+                        <div>
+                            <label for="usuario" name="label-usuario" id="label-usuario">Usuário</label>
+                            <input type="text" name="input-usuario" id="input-usuario" maxlength="30" size="20"
+                                    onblur="validarUsuario()">
+                        </div>
+                        <div>
+                            <label for="password" name="label-password" id="label-password">Senha</label>
+                            <input type="password" name="input-password" id="input-password" maxlength="30" size="22"
+                                >
+                        </div>
+                        <div>
+                            <button name="button-login" id="button-login">Login</button>
+                        </div>
+                    </form>
+                </div>  
+        </div>
+    </div>
+
+
+
+    <!-- -->
+
+    <script type="text/javascript" src="./scripts/script1.js"></script>
+
+</body>
+</html>
